@@ -18,6 +18,7 @@ The more thorough you are, the higher your polish, and the more production-ready
 Before you begin, fork this repo and make an empty git commit.
 
 Create a seaparte pull request for each test from your forked repo.
+If you would like to talk through your submission, write it in your pull request.
 
 ---
 
