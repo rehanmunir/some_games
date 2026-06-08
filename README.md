@@ -29,6 +29,8 @@ Go to `http://localhost:3000/games`.
 ### Style games
 
 Style each game based on the figma file.
+The images in figma are just placeholders. Do not use them.
+Use the images already in the app that are just random color backgrounds with the game title.
 
 ### Add the footer
 
