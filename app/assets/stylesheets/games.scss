@@ -9,19 +9,19 @@ body {
   min-height: 100vh;
   color: $text;
   font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background-color: #edebf6;
+  background-color: #f1eff8;
   background-image:
-    radial-gradient(40rem 40rem at 8% 10%,  rgba(247, 196, 224, 0.55), transparent 60%),
-    radial-gradient(38rem 38rem at 92% 20%, rgba(186, 209, 248, 0.55), transparent 60%),
-    radial-gradient(46rem 46rem at 80% 78%, rgba(201, 240, 228, 0.50), transparent 62%),
-    radial-gradient(40rem 40rem at 16% 90%, rgba(205, 189, 240, 0.55), transparent 60%);
+    radial-gradient(46rem 46rem at 6% 8%,   rgba(247, 196, 224, 0.38), transparent 55%),
+    radial-gradient(44rem 44rem at 94% 18%, rgba(186, 209, 248, 0.36), transparent 55%),
+    radial-gradient(50rem 50rem at 82% 80%, rgba(201, 240, 228, 0.32), transparent 58%),
+    radial-gradient(46rem 46rem at 14% 92%, rgba(205, 189, 240, 0.36), transparent 55%);
   background-attachment: fixed;
 }
 
 // Marketplace grid -----------------------------------------------------------
 
 .games {
-  max-width: 64rem;
+  max-width: 58rem;
   margin: 0 auto;
   padding: 4rem 1.5rem 5rem;
 }
@@ -38,7 +38,7 @@ body {
 .games-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 1.75rem;
 
   @media (max-width: 960px) { grid-template-columns: repeat(3, 1fr); }
   @media (max-width: 720px) { grid-template-columns: repeat(2, 1fr); }
@@ -51,6 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  min-height: 27rem;
   overflow: hidden;
   border: 1px solid $card-border;
   border-radius: 14px;
